@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+     <html>
+  <head>
+    <title>Click counter</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+ 
+ 
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="index.js" defer></script>
+
+   
+   
+  </head>
+
+  <body>
+    
+    <div id="app">
+  
+  <p>{{ message }}</p>
+
+    <button @click="count++">increment</button>
+    <button @click="count--">decrement</button>
+    <p>The count is {{ count }}</p>
+  
+
+</div>
+
+  </body>
+  
+</html>
